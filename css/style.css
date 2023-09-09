@@ -1374,6 +1374,16 @@ section{
       height: 25rem;
    }
 
+   #search-btn{
+      display: none;
+   }
+
+}
+
+@media (max-width:315px){
+   #toggle-btn{
+      display: none;
+   }
 }
 
 /* .special-element{
