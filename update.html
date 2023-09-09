@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Yangilash</title>
+
+   <link rel="shortcut icon" href="./images/logo3.7.svg" type="image/svg+xml">
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+ 
+   
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo"><img src="images/logo3.5.svg" alt=""></a>
+      
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="kurslarni izlash..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/pic-1.svg" class="image" alt="">
+         <h3 class="name">Ism Sharf</h3>
+         <p class="role">O'quvchi</p>
+         <a href="profile.html" class="btn">Profilni ko'rish</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">Tizimga kirish</a>
+            <a href="register.html" class="option-btn">Ro'yxatdan o'tish</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/pic-1.svg" class="image" alt="">
+      <h3 class="name">Ism Sharf</h3>
+      <p class="role">O'quvchi</p>
+      <a href="profile.html" class="btn">Profilni ko'rish</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>Bosh sahifa</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>Biz Haqqimizda</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Kurslar</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>O'qituvchilar</span></a>
+   </nav>
+
+</div>
+
+<section class="form-container">
+
+   <form action="" method="post" enctype="multipart/form-data">
+      <h3>Profilni yangilash</h3>
+      <p>Isimni yangilash</p>
+      <input type="text" name="name" placeholder="Ism Sharf" maxlength="50" class="box">
+      <p>Emailni yangilash</p>
+      <input type="email" name="email" placeholder="namuna@gmail.com" maxlength="50" class="box">
+      <p>Oldingi parol</p>
+      <input type="password" name="old_pass" placeholder="eski parolingizni kiriting" maxlength="20" class="box">
+      <p>Yangi parol</p>
+      <input type="password" name="new_pass" placeholder="eski parolingizni kiriting" maxlength="20" class="box">
+      <p>Parolni tasdiqlang</p>
+      <input type="password" name="c_pass" placeholder="yangi parolingizni tasdiqlang" maxlength="20" class="box">
+      <p>Rasmni yangilash</p>
+      <input type="file" accept="image/*" class="box">
+      <input type="submit" value="profilni yangilash" name="submit" class="btn">
+   </form>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   &copy; copyright <a href="https://t.me/BMGR0UP"><span>BM GROUP</span></a>
+   
+</footer>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>
