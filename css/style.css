@@ -1759,7 +1759,29 @@ video::cue {
    border-radius: 20px;
  }
  
+ @media (max-width: 430px) {
+   .container {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   
  
+   .controls .icon {
+     margin-left: 5px;
+     margin-right: 5px;
+     font-size: 24px;
+   }
+ 
+   .volume,
+   .volume_range,
+   .auto-play,
+   .fast-forward,
+   .picture_in_picutre {
+     display: none;
+   }
+ }
  
  
  
